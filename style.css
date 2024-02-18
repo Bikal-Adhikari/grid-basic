@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  font-size: 2rem;
+  color: white;
+}
+
+.parent {
+  background: black;
+  padding: 1rem;
+  min-height: 60vh;
+  /* grid  */
+  display: grid;
+  gap: 10px;
+  /* grid-template-columns: 30px 1fr 2fr 100px; */
+  /* grid-template-columns: repeat(2, 100px) 1fr; */
+  grid-template-columns: repeat(3, auto);
+
+  /* grid-template-rows: 50px 100px 400px; */
+}
+
+.parent > div {
+  background: orangered;
+}
